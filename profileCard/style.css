@@ -1,0 +1,72 @@
+body{
+    display:flex;
+    justify-content:center;
+    background-color:aqua;
+}
+#main{
+    margin-top: 100px;
+    background-color:white;
+    width:500px;
+    border:1px solid gray;
+    border-radius:4px;
+    box-shadow:1px 1px 1px black;
+}
+#image{
+    background-image:url("Profilep.jpeg");
+    height:75px;
+    width:75px;
+    background-size:cover;
+    margin: 40px;
+    margin-bottom:20px;
+    margin-left:200px;
+    padding:10px;
+}
+.major{
+    font-size:larger;
+    
+    margin-left:150px;
+}
+.minor{
+    padding:20px;
+    font-size:large;
+    text-align:justify; 
+     
+}
+#box{
+    display:flex;
+    justify-content:space-evenly;
+    margin-bottom:10px;
+}
+#b1{
+    background-image:url("Instagram.jpg");
+    width:50px;
+    height:50px;
+    background-size:cover;
+}
+#b2{
+    background-image:url("https://static.vecteezy.com/system/resources/previews/018/930/480/non_2x/linkedin-logo-linkedin-icon-transparent-free-png.png");
+    width:50px;
+    height:50px;
+    background-size:cover;
+}
+#b3{
+    background-image:url("https://cdn-icons-png.flaticon.com/512/3670/3670051.png");
+    width:50px;
+    height:50px;
+    background-size:cover;
+}
+#main:hover{
+    border:2px solid yellow;
+}
+#b1:hover{
+     border:2px solid blue;
+}
+#b2:hover{
+    border:2px solid blue;
+}
+#b3:hover{
+    border:2px solid blue;
+}
+#image:hover{
+    border:5px soild black;
+}

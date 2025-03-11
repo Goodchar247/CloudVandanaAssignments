@@ -1,0 +1,26 @@
+body {
+    background-color: black;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+.slider {
+    justify-self: center;
+    margin-top:150px;
+    width: 500px;
+}
+.slider img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+button {
+    background-color:skyblue;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
