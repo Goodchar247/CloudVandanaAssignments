@@ -60,13 +60,25 @@ body{
 }
 #b1:hover{
      border:2px solid blue;
+     animation: scale-up 0.5s forwards;
 }
 #b2:hover{
     border:2px solid blue;
+    animation: scale-up 0.5s forwards;
 }
 #b3:hover{
     border:2px solid blue;
+    animation: scale-up 0.5s forwards;
 }
 #image:hover{
     border:5px soild black;
+}
+@keyframes scale-up {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.25);
+    }
 }
